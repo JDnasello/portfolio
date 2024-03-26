@@ -12,7 +12,8 @@ const AboutMe = () => {
                 <h1 className='section-title'><Person /> {t("about.about-title")}</h1>
                 <p className='about-text' dangerouslySetInnerHTML={{ __html: t("about.about-text-first-p")}}></p>
                 <p className='about-text' dangerouslySetInnerHTML={{ __html: t("about.about-text-second-p")}}></p>
-                <p className='about-text' dangerouslySetInnerHTML={{ __html: t("about.about-text-third-p")}}></p>
+                <p className='about-text' dangerouslySetInnerHTML={{ __html: t("about.about-text-third-p") }}></p>
+                <p className='about-text' dangerouslySetInnerHTML={{ __html: t("about.about-text-fourth-p")}}></p>
                 <div className='activities'>
                     <h2>{t("about.extracurricular-activities")}</h2>
                     <ul>

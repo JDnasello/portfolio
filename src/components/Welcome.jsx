@@ -1,5 +1,5 @@
 import '../css/welcome.css'
-import avatar from '../assets/img/avatar.jpeg'
+import avatar from '../img/avatar.jpeg'
 import { DarkMode, LightMode, Email, LinkedIn, Tune } from "@mui/icons-material"
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -64,7 +64,7 @@ const Welcome = ({ mode, changeMode }) => {
                     <h2>{t("welcome.contactme")}</h2>
                     <div className='contact-links'>
                         <a href="mailto:jnasellopron@gmail.com"><Email fontSize='small' /> Gmail</a>
-                        <a href="https://www.linkedin.com/in/juan-diego-nasello/"><LinkedIn fontSize='small' /> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/juan-diego-nasello/" target='_blank'><LinkedIn fontSize='small' /> LinkedIn</a>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,11 @@
-import mongodbIcon from '../assets/img/mongodb.svg'
-import nodejsIcon from '../assets/img/nodejs.svg'
-import expressIcon from '../assets/img/express.svg'
-import reactIcon from '../assets/img/react.svg'
-import reduxIcon from '../assets/img/redux.svg'
+import mongodbIcon from '../img/mongodb.svg'
+import nodejsIcon from '../img/nodejs.svg'
+import expressIcon from '../img/express.svg'
+import reactIcon from '../img/react.svg'
+import reduxIcon from '../img/redux.svg'
+import artesMarciales from '../img/artes-marciales-web-interface.jpeg'
+import pokedex from '../img/pokedex-interface.jpeg'
+import socialFlow from '../img/social-flow-interface.jpeg'
 
 const mongodbColor = "#0483043a"
 const reactColor = "#00b0f43a"
@@ -13,7 +16,7 @@ const expressColor = '#000'
 export const list = [
   {
     id: 1,
-    url: "/src/assets/img/social-flow-interface.jpg",
+    url: socialFlow,
     title: "SocialFlow",
     description:
       "Aplicación inspirada en Twitter, con algunos ajustes en su diseño. La idea es mostrar mis conocimientos en el MERN stack",
@@ -49,7 +52,7 @@ export const list = [
   },
   {
     id: 2,
-    url: "/src/assets/img/pokedex-interface.jpg",
+    url: pokedex,
     title: "Pokedex",
     description:
       "Una página para mostrar las distintas especies pokemon y sus características. El objetivo de este proyecto fue consolidar mis conocimientos en solicitudes a una API mediante el uso de fetch().",
@@ -65,7 +68,7 @@ export const list = [
   },
   {
     id: 3,
-    url: "/src/assets/img/artes-marciales-web-interface.jpg",
+    url: artesMarciales,
     title: "LandingPage",
     description:
       "Proyecto realizado como actividad para el instituto TECLAB. La idea principal es mostrar mis conocimientos en React.js. Algunos detalles son el uso de react-router-dom, react-hook-form e EmailJS para enviar mensajes a un profesional por mail.",
