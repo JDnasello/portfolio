@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --dark-blue: #020e3f;
+    --dark-semiblue: #0f2257;
+    --sky-blue: #216eff;
+    --purple-blue: #171e3b;
+    --navbar: linear-gradient(135deg, #0f142794, #0f142794);
+    --font-dark-mode: #f7f3e7cc;
+    --font-h1-dark-mode: #f7f3e7;
+    --font-light-mode: #000c;
+    --font-h1-light-mode: rgba(0, 0, 0, 0.774);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.3em;}
+p {line-height: 1.5em; letter-spacing: 0.2px;}
+
+@media screen and (min-width: 768px) {
+    h1 {font-size: 2.5em;}
+    h2 {font-size: 1.9em;}
+    p {font-size: 1.2em;}
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    background-color: #010825;
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--dark-semiblue);
+    border-radius: 20px;
+}
+
+.dark-mode {
+    background: radial-gradient(circle 1100px at 50% 0, var(--dark-semiblue), var(--dark-blue), #030414);
+    color: var(--font-dark-mode);
+}
+
+.dark-mode h1,h2,h3 {
+    color: var(--font-h1-dark-mode);
+    transition: .3s;
+}
+
+.light-mode {
+    background-color: #f4f1fa;
+    color: var(--font-light-mode);
+    font-weight: 500;
+}
+
+.dark-mode, .light-mode {
+    transition: .3s;
+}
+
+.section-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dark-mode .section-title {
+    color: var(--font-h1-dark-mode);
+}
+
+.light-mode .section-title {
+    color: var(--font-h1-light-mode);
+}
+
+.section-title svg {
+    height: 35px;
+}
+
+@media screen and (min-width: 540px) {
+    .container-welcome .welcome-content,
+    .container-experience .experience-content,
+    .container-about .about-content {
+        padding: 0 10%;
+        min-width: 493px;
+        max-width: 1100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html::-webkit-scrollbar {
+        width: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-title svg {
+        width: 35px;
+        height: 35px;
+    }
+}

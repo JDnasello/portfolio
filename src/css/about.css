@@ -1,0 +1,196 @@
+.container-about {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-about .about-text {
+    margin: 30px 0;
+}
+
+.container-about .about-text strong {
+    color: var(--sky-blue);
+    font-family: 'JetBrains', sans-serif;
+}
+
+.activities {
+    margin: 100px 0 30px;
+}
+
+.activities ul {
+    margin: 30px 0;
+    list-style: none;
+}
+
+.activities ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--font-h1-dark-mode);
+    font-size: 1.1em;
+}
+
+.light-mode .activities h2 {
+    color: var(--font-h1-light-mode);
+}
+
+.light-mode .activities ul li {
+    color: var(--font-h1-light-mode);
+}
+
+.activities ul li .activity-icon {
+    width: 35px;
+    height: 35px;
+    fill: var(--sky-blue);
+    filter: drop-shadow(1px 1px 1px var(--sky-blue));
+}
+
+.knowledge {
+    padding: 70px 0 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.knowledge h1 {
+    text-align: center;
+}
+
+.knowledge .technologies-carousel {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.technologies-carousel .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    fill: var(--font-h1-dark-mode);
+    transition: .2s;
+}
+
+.light-mode .technologies-carousel .carousel-arrow {
+    fill: var(--font-light-mode);
+}
+
+.technologies-carousel .carousel-arrow:hover {
+    fill: var(--sky-blue);
+}
+
+.technologies-carousel img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    opacity: 0;
+    transition: .5s;
+}
+
+.technologies-carousel .ability-img-loaded {
+    opacity: 1;
+}
+
+.technologies-carousel .express-icon-light-mode {
+    filter: invert(1);
+}
+
+@media screen and (min-width: 768px) {
+    
+    .knowledge .technologies-carousel {
+        height: 200px;
+        margin-top: 80px;
+        justify-content: space-between; 
+    }
+
+    .technologies-carousel .abilities-img-desktop {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .abilities-img-desktop img {
+        opacity: .4;
+        min-width: 100px;
+        min-height: 200px;
+        transition: opacity .5s;
+    }
+
+    .abilities-img-desktop .selected {
+        transform: scale(1.6);
+        opacity: 1;
+        z-index: 1;
+    }
+
+    @keyframes leftImageOut {
+        from {
+            transform: translateX(0);
+            opacity: .4;
+        }
+        to {
+            transform: translateX(-60%);
+            opacity: 0;
+        }
+    }
+
+    .abilities-img-desktop img:nth-child(1) {
+        animation: leftImageOut .2s;
+    }
+
+    @keyframes leftImage {
+        from {
+            transform: translateX(160px) scale(1.6);
+            opacity: 1;
+        }
+        to {
+            transform: translateX(0) scale(1);
+            opacity: 0.4;
+        }
+    }
+
+    @keyframes middleImage {
+        from {
+            transform: translateX(160px);
+            opacity: .4;
+        }
+        to {
+            transform: translateX(0) scale(1.6);
+            opacity: 1;
+        }
+    }
+
+    @keyframes rightImage {
+        from {
+            transform: translateX(160px) scale(.6);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0) scale(1);
+            opacity: .4;
+        }
+    }
+
+    .abilities-img-desktop .ability-img-loaded:nth-child(1) {
+        opacity: .4;
+        animation: leftImage 2s;
+    }
+
+    .abilities-img-desktop .ability-img-loaded:nth-child(2){
+        animation: middleImage 2s;
+    }
+
+    .abilities-img-desktop .ability-img-loaded:nth-child(3) {
+        opacity: .4;
+        animation: rightImage 2s;
+    }
+
+    .technologies-carousel .carousel-arrow {
+        display: none;
+    }
+}    

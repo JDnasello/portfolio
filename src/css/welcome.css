@@ -1,0 +1,149 @@
+.container-welcome {
+    padding: 238px 0 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.welcome-info .mypicture-and-mode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mypicture-and-mode .avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mypicture-and-mode div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mypicture-and-mode div .preferences-icon {
+    cursor: pointer;
+}
+
+.mypicture-and-mode div .container-preferences {
+    padding: 10px 4px;
+    position: relative;
+    top: -70px;
+    right: -33px;
+    background-color: #2a3463;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.container-preferences div {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mypicture-and-mode div .container-preferences svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container-preferences .language-flag {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.welcome-text {
+    margin: 50px 0;
+}
+
+.welcome-text p {
+    margin-top: 30px;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.light-mode .container-contact h2 {
+    color: var(--font-h1-light-mode);
+}
+
+.container-contact .contact-links {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.contact-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--purple-blue);
+    padding: 5px 12px;
+    border-radius: 25px;
+    font-size: .8em;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1);
+    transition: .3s;
+}
+
+.contact-links a:hover {
+    box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.3);
+}
+
+@media  screen and (min-width: 540px) {
+    .welcome-content {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mypicture-and-mode .avatar {
+        width: 150px;
+    }
+
+    .welcome-text h1 {
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 23.5ch;
+        animation: typing 2s steps(24, end), blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+
+    @keyframes typing {
+        from { width: 10ch; }
+    }
+
+    @keyframes blink {
+        50% { border-color: transparent;}
+    }
+
+    .container-contact .contact-links {
+        gap: 20px;
+    }
+
+    .contact-links a {
+        padding: 8px 25px;
+        font-size: .9em;
+    }
+
+}

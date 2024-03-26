@@ -1,0 +1,44 @@
+{
+    "header": {
+        "experience-link": "Experience",
+        "projects-link": "Projects",
+        "about-link": "About me"
+    },
+    "welcome": {
+        "theme": "Theme",
+        "language": "Language",
+        "welcome-title": "Hi everybody, I'm Juan Diego!",
+        "fullstack-dev": "FullStack developer ",
+        "welcome-subtitle": "born in Olavarría, Province of Buenos Aires.",
+        "contactme": "Contact me"
+    },
+    "experience": {
+        "experience-title": "Work experience",
+        "job-role": "Virtual assistant",
+        "working-time": "Currently...",
+        "job-description": "IT academy that offers programming courses. My role in my position is assisting students in the subjects of Web Development and Databases."
+    },
+    "projects": {
+        "section-project-title": "Projects",
+        "project-descriptions": {
+            "socialflow": "An application inspired by Twitter, with some adjustments to its design. The idea is showcase my skills in the MERN stack.",
+            "pokedex": "A webpage to display different Pokémon species and their characteristics. The objective of this project was to consolidate my knowledge in making requests to an API using fetch().",
+            "landingpage": "Project done as an activity for TECLAB Institute about Martial Arts. The main idea is to showcase my skills in React.js. Some details include the use of react-router-dom, react-hook-form, and EmailJS to send messages to a professional by email."
+        },
+        "github-code": "Code"
+    },
+    "about": {
+        "about-title": "About me",
+        "about-text-first-p": "I'm Juan Diego, but my friends call me Juandi. I started in this beautiful world of programming in <strong>March 2022 at TECLAB, Technical Superior Institute.</strong>",
+        "about-text-second-p": "During my studies, I learned many things, but my true passion is <strong>Web Development</strong>. How did I discover it? Well, by the end of 2023, all students had to complete a final project, and it was there where I implemented <strong>React</strong> for the first time. From that moment on, I dedicated every day to this library and the <strong>JavaScript ecosystem.</strong>",
+        "about-text-third-p": "Currently, I am a graduate, and <strong>my greatest achievement was the creation of my project SocialFlow (a Twitter clone), where I included the MERN stack.</strong> Within this app, you can sign up, create, edit, and delete posts, modify your profile, follow people, and much more!",
+        "extracurricular-activities": "Extracurricular activities",
+        "gym": "Gym",
+        "martial-arts": "Martial Arts",
+        "english": "English"
+    },
+    "knowledge": {
+        "knowledge-title": "My skills"
+    }
+
+}
