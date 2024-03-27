@@ -35,7 +35,7 @@ const NavBar = () => {
                     <a href='#experience' className='menu-a'>{t('header.experience-link')}</a>
                 <a href='#projects' className='menu-a'>{t('header.projects-link')}</a>
                 <a href='#about' className='menu-a'>{t('header.about-link')}</a>
-                <a href='' className='download-cv'><LiaDownloadSolid /> CV</a>
+                <a download='juan-diego-nasello-CV' href='/src/img/Juan-Nasello-CV.pdf' className='download-cv'><LiaDownloadSolid /> CV</a>
             </nav>
             </div>
         </header>
