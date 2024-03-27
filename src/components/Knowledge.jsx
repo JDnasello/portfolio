@@ -1,4 +1,4 @@
-import { ArrowBackIosNew, ArrowForwardIos, Widgets } from '@mui/icons-material'
+import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
 import '../css/about.css'
 import { useEffect, useState } from 'react'
 import mongodbIcon from '../img/mongodb.svg'
@@ -50,7 +50,13 @@ const Knowledge = ({ mode }) => {
                 setSelectedImage(abilitiesImages[nextIndex])
                 setSelectedIndex(nextIndex)
             }, 300)
-        } 
+        } else {
+            setTimeout(() => {
+                setSelectedImage(abilitiesImages[nextIndex])
+                setSelectedIndex(nextIndex)
+            }, 100)
+        }
+
     }
     
     const previousImage = () => {
