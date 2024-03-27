@@ -1,5 +1,5 @@
 .container-projects {
-    padding: 110px 0 121px;
+    padding: 190px 0 121px;
 }
 
 .container-projects .section-title {
@@ -35,6 +35,7 @@
 
 .project img {
     width: 100%;
+    transition: .4s;
 }
 
 .project .project-text {
@@ -230,5 +231,10 @@
         100% {
             transform: translateY(-100%);
         }
+    }
+
+    .project img:hover {
+        padding: 15px 30px 20px;
+        transform: scale(1.25);
     }
 }

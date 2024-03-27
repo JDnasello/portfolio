@@ -3,7 +3,7 @@ import nodejsIcon from '../img/nodejs.svg'
 import expressIcon from '../img/express.svg'
 import reactIcon from '../img/react.svg'
 import reduxIcon from '../img/redux.svg'
-import artesMarciales from '../img/artes-marciales-web-interface.jpeg'
+import artesMarciales from '../img/artes-marciales-interface.jpeg'
 import pokedex from '../img/pokedex-interface.jpeg'
 import socialFlow from '../img/social-flow-interface.jpeg'
 
@@ -73,7 +73,7 @@ export const list = [
     description:
       "Proyecto realizado como actividad para el instituto TECLAB. La idea principal es mostrar mis conocimientos en React.js. Algunos detalles son el uso de react-router-dom, react-hook-form e EmailJS para enviar mensajes a un profesional por mail.",
     codeLink: "https://github.com/JDnasello/artes-marciales-web",
-    projectLink: "",
+    projectLink: "https://artesmarcialesolav.netlify.app",
     technologies: [
       {
         icon: reactIcon,

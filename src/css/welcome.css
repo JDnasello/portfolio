@@ -40,6 +40,7 @@
     top: -70px;
     right: -33px;
     background-color: #2a3463;
+    color: var(--font-dark-mode);
     box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.3);
     display: flex;
     flex-direction: column;

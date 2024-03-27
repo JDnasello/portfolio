@@ -50,13 +50,7 @@ const Knowledge = ({ mode }) => {
                 setSelectedImage(abilitiesImages[nextIndex])
                 setSelectedIndex(nextIndex)
             }, 300)
-        } else {
-            setTimeout(() => {
-                setSelectedImage(abilitiesImages[nextIndex])
-                setSelectedIndex(nextIndex)
-            }, 100)
-        }
-
+        } 
     }
     
     const previousImage = () => {

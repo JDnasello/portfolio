@@ -8,9 +8,9 @@ const Footer = () => {
                 <span>&copy; Juan Diego Nasello | 2024</span>
             </div>
             <div className="footer-links">
-                <a href='mailto:jnasellopron@gmail.com' target='_blank'><MailOutline /></a>
-                <a href='https://github.com/JDnasello'><GitHub /></a>
-                <a href='https://www.linkedin.com/in/juan-diego-nasello/'><LinkedIn /></a>
+                <a href='mailto:jnasellopron@gmail.com'><MailOutline /></a>
+                <a href='https://github.com/JDnasello' target='_blank'><GitHub /></a>
+                <a href='https://www.linkedin.com/in/juan-diego-nasello/' target='_blank'><LinkedIn /></a>
             </div>
         </footer>
     )

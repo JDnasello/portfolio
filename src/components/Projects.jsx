@@ -40,7 +40,7 @@ const Projects = () => {
                                     }
                                 </div>
                                 <div className="project-links">
-                                    <a href={project.codeLink}><GitHub /> {t("projects.github-code")}</a>
+                                    <a href={project.codeLink} target="_blank"><GitHub /> {t("projects.github-code")}</a>
                                     <a href={project.projectLink}><Link /> Demo</a>
                                 </div>
                             </div>
