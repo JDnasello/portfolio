@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../css/navbar.css'
 import { LiaDownloadSolid } from "react-icons/lia"
 import { useTranslation } from 'react-i18next'
+import CV from '/src/img/Juan-Nasello-CV.pdf'
 
 const NavBar = () => {
 
@@ -35,7 +36,7 @@ const NavBar = () => {
                     <a href='#experience' className='menu-a'>{t('header.experience-link')}</a>
                 <a href='#projects' className='menu-a'>{t('header.projects-link')}</a>
                 <a href='#about' className='menu-a'>{t('header.about-link')}</a>
-                <a download href='/src/img/Juan-Nasello-CV.pdf' className='download-cv'><LiaDownloadSolid /> CV</a>
+                <a download href={CV} className='download-cv'><LiaDownloadSolid /> CV</a>
             </nav>
             </div>
         </header>
