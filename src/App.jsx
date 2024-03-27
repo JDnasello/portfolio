@@ -23,9 +23,9 @@ function App() {
         <NavBar mode={mode} />
         <main style={{ padding: '0 15px' }}>
           <Welcome mode={mode} changeMode={changeMode} />
-          <AboutMe mode={mode} />
           <Experience mode={mode} />
           <Projects mode={mode} />
+          <AboutMe mode={mode} />
           <Knowledge mode={mode}/>
         </main>
         <Footer mode={mode} />

@@ -63,7 +63,7 @@ const Welcome = ({ mode, changeMode }) => {
                 <div className='container-contact'>
                     <h2>{t("welcome.contactme")}</h2>
                     <div className='contact-links'>
-                        <a href="mailto:jnasellopron@gmail.com"><Email fontSize='small' /> Gmail</a>
+                        <a href="mailto:jnasellopron@gmail.com" target='_blank'><Email fontSize='small' /> Gmail</a>
                         <a href="https://www.linkedin.com/in/juan-diego-nasello/" target='_blank'><LinkedIn fontSize='small' /> LinkedIn</a>
                     </div>
                 </div>
