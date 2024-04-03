@@ -44,6 +44,14 @@ html::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+.container-loader {
+    min-height: 100vh;
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dark-mode {
     background: radial-gradient(circle 1100px at 50% 0, var(--dark-semiblue), var(--dark-blue), #030518);
     color: var(--font-dark-mode);
