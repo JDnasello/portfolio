@@ -33,7 +33,12 @@
     background-color: var(--purple-blue);
 }
 
-.project img {
+.project .project-img-mask {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project .project-img {
     width: 100%;
     transition: .4s;
 }
@@ -233,8 +238,7 @@
         }
     }
 
-    .project img:hover {
-        padding: 15px 30px 20px;
-        transform: scale(1.25);
+    .project .project-img:hover {
+        width: 130%;
     }
 }

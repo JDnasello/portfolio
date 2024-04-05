@@ -23,8 +23,9 @@ const Projects = () => {
                                 <span className="third-border"></span>
                                 <span className="fourth-border"></span>
                             <div className="project">
-                
-                                <img src={project.url} alt={project.title} loading="lazy" />
+                                <div className="project-img-mask">
+                                    <img src={project.url} alt={project.title} className="project-img" loading="lazy" />
+                                </div>
                                 <div className="project-text">
                                     <h3>{project.title}</h3>
                                     <p>{t(`projects.project-descriptions.${project.title.toLowerCase()}`)}</p>
