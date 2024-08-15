@@ -1,4 +1,4 @@
-import { FitnessCenter, RecordVoiceOver, SportsMartialArts, Person, } from '@mui/icons-material'
+import { FitnessCenter, SportsMartialArts, Person, Translate, } from '@mui/icons-material'
 import '../css/about.css'
 import { useTranslation } from 'react-i18next'
 
@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <ul>
                         <li><FitnessCenter className='activity-icon' /> {t("about.gym")}</li>
                         <li><SportsMartialArts className='activity-icon' /> {t("about.martial-arts")}</li>
-                        <li><RecordVoiceOver className='activity-icon' /> {t("about.english")}</li>
+                        <li><Translate className='activity-icon' /> {t("about.languages")}</li>
                     </ul>
                 </div>
             </div>
