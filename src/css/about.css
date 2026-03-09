@@ -89,6 +89,7 @@
     width: 100%;
     max-width: 100px;
     height: auto;
+    object-fit: contain;
     opacity: 0;
     transition: .5s;
 }

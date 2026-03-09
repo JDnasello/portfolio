@@ -1,44 +1,50 @@
 {
-    "header": {
-        "experience-link": "Experiencia",
-        "projects-link": "Proyectos",
-        "about-link": "Sobre mí"
+  "header": {
+    "experience-link": "Experiencia",
+    "projects-link": "Proyectos",
+    "about-link": "Sobre mí"
+  },
+  "welcome": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "welcome-title": "Bienvenidos, soy Juan Diego!",
+    "fullstack-dev": "Desarrollador FullStack ",
+    "welcome-subtitle": "nacido en la ciudad de Olavarría, Provincia de Buenos Aires, Argentina.",
+    "contactme": "Contáctame"
+  },
+  "experience": {
+    "experience-title": "Experiencia laboral",
+    "job-role": "Co-Fundador y desarrollador FullStack",
+    "working-time": "Actualmente...",
+    "job-description": "Agencia de desarrollo de aplicaciones y páginas web a medida. Me especializo en liderar proyectos desde el inicio a fin, llevando el desarrollor de los programas desde la conceptualización hasta el despliegue."
+  },
+  "experience2": {
+    "job-role": "Tutor Academico",
+    "working-time": "Ago 2023 - Nov 2024",
+    "job-description": "Academia IT que brinda cursos de programación. Mi rol en mi puesto fue la asistencia a estudiantes en la materia Desarrollo Web y Bases de Datos."
+  },
+  "projects": {
+    "section-project-title": "Proyectos",
+    "project-descriptions": {
+      "socialflow": "Aplicación inspirada en Twitter, con algunos ajustes en su diseño. La idea es mostrar mis conocimientos en el MERN stack.",
+      "pokedex": "Una página para mostrar las distintas especies pokemon y sus características. El objetivo de este proyecto fue consolidar mis conocimientos en solicitudes a una API mediante el uso de fetch().",
+      "landingpage": "Proyecto realizado como actividad para el instituto TECLAB. La idea principal es mostrar mis conocimientos en React.js. Algunos detalles son el uso de react-router-dom, react-hook-form e EmailJS para enviar mensajes a un profesional por correo electrónico."
     },
-    "welcome": {
-        "theme": "Tema",
-        "language": "Idioma",
-        "welcome-title": "Bienvenidos, soy Juan Diego!",
-        "fullstack-dev": "Desarrollador FullStack ",
-        "welcome-subtitle": "nacido en la ciudad de Olavarría, Provincia de Buenos Aires, Argentina.",
-        "contactme": "Contáctame"
-    },
-    "experience": {
-        "experience-title": "Experiencia laboral",
-        "job-role": "Tutor Academico",
-        "working-time": "Actualmente...",
-        "job-description": "Academia IT que brinda cursos de programación. Mi rol en mi puesto es la asistencia a estudiantes en la materia Desarrollo Web y Bases de Datos."
-    },
-    "projects": {
-        "section-project-title": "Proyectos",
-        "project-descriptions": {
-            "socialflow": "Aplicación inspirada en Twitter, con algunos ajustes en su diseño. La idea es mostrar mis conocimientos en el MERN stack.",
-            "pokedex": "Una página para mostrar las distintas especies pokemon y sus características. El objetivo de este proyecto fue consolidar mis conocimientos en solicitudes a una API mediante el uso de fetch().",
-            "landingpage": "Proyecto realizado como actividad para el instituto TECLAB. La idea principal es mostrar mis conocimientos en React.js. Algunos detalles son el uso de react-router-dom, react-hook-form e EmailJS para enviar mensajes a un profesional por correo electrónico."
-        },
-        "github-code": "Código"
-    },
-    "about": {
-        "about-title": "Sobre mí",
-        "about-text-first-p": "Soy Juan Diego, pero para mis amigos soy Juandi. Comencé en este hermoso mundo de la programación en <strong>Marzo de 2022 en TECLAB, Instituto Técnico Superior.</strong>",
-        "about-text-second-p": "Durante el cursado de mi carrera, aprendí muchas cosas, pero mi verdadera pasión es el <strong>Desarrollo Web.</strong> ¿Cómo lo descubrí? Bueno, a fines de 2023, todos los estudiantes debíamos realizar un proyecto final, fue ahí en donde implementé <strong>React</strong> por primera vez, y desde ese momento dediqué todos los días a esta biblioteca y al <strong>ecosistema de JavaScript.</strong>",
-        "about-text-third-p": "Actualmente estoy buscando mi próximo desafío profesional. <strong>Busco formar parte de una empresa con ambiente colaborativo y de aprendizaje continuo</strong>, ya que es parte de mis valores, asi como también la <strong>proactividad y deseo de estar actualizado sobre tecnologías usadas en la actualidad.</strong>",
-        "about-text-fourth-p": "<strong> Mi mayor logro fue la creación de mi proyecto <strong>Social</strong><b style={{ color: 'var(--sky-blue)'}}>Flow</b><span> (clon de Twitter)</span>, en donde incluí el stack MERN</strong>. Dentro de esta app, puedes inventar un usuario, crear, editar y borrar publicaciones, modificar tu perfil, seguir personas, y muchas cosas más!",
-        "extracurricular-activities": "Actividades extracurriculares",
-        "gym": "Gimnasio",
-        "martial-arts": "Artes Marciales",
-        "languages": "Aprender idiomas"
-    },
-    "knowledge": {
-        "knowledge-title": "Conocimientos"
-    }
+    "github-code": "Código"
+  },
+  "about": {
+    "about-title": "Sobre mí",
+    "about-text-first-p": "Soy Juan Diego, pero para mis amigos soy Juandi. Comencé en este hermoso mundo de la programación en <strong>Marzo de 2022 en TECLAB, Instituto Técnico Superior.</strong>",
+    "about-text-second-p": "Durante el cursado de mi carrera, aprendí muchas cosas, pero mi verdadera pasión es el <strong>Desarrollo Web.</strong> ¿Cómo lo descubrí? Bueno, a fines de 2023, todos los estudiantes debíamos realizar un proyecto final, fue ahí en donde implementé <strong>React</strong> por primera vez, y desde ese momento dediqué todos los días a esta biblioteca y al <strong>ecosistema de JavaScript.</strong>",
+    "about-text-third-p": "En 2025 comencé a estudiar <strong>Ingeniería en Inteligencia Artificial</strong>. Carrera que me intriga hasta el día de hoy por lo rápido que avanza y el potencial que tiene para un futuro no muy lejano. Hasta ahora, he aprendido conceptos matemáticos tales como el <strong>cálculo diferencial e integral, álgebra y probabilidad y estadística básica</strong>. En cuanto a programación, utilizamos lenguajes como <strong>Python, C</strong> y en este momento estoy aprendiendo <strong>Java</strong>.",
+    "about-text-fourth-p": "Actualmente estoy buscando mi próximo desafío profesional. <strong>Busco formar parte de una empresa con ambiente colaborativo y de aprendizaje continuo</strong>, ya que es parte de mis valores, asi como también la <strong>proactividad y deseo de estar actualizado sobre tecnologías usadas en la actualidad.</strong>",
+    "about-text-fifth-p": "<strong> Mi mayor logro fue la creación de mi proyecto <strong>Social</strong><b style={{ color: 'var(--sky-blue)'}}>Flow</b><span> (clon de Twitter)</span>, en donde incluí el stack MERN</strong>. Dentro de esta app, puedes inventar un usuario, crear, editar y borrar publicaciones, modificar tu perfil, seguir personas, y muchas cosas más!",
+    "extracurricular-activities": "Actividades extracurriculares",
+    "gym": "Gimnasio",
+    "martial-arts": "Artes Marciales",
+    "languages": "Aprender idiomas"
+  },
+  "knowledge": {
+    "knowledge-title": "Conocimientos"
+  }
 }

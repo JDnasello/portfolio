@@ -9,6 +9,7 @@ import reduxIcon from '../img/redux.svg'
 import jsIcon from '../img/javascript.svg'
 import htmlIcon from '../img/html.svg'
 import cssIcon from '../img/css.svg'
+import pythonIcon from '../img/python_1.svg'
 import pgSqlIcon from '../img/postgresql.svg'
 import gitIcon from '../img/git.svg'
 import npmIcon from '../img/npm.svg'
@@ -26,6 +27,7 @@ const Knowledge = ({ mode }) => {
         jsIcon,
         htmlIcon,
         cssIcon,
+        pythonIcon,
         pgSqlIcon,
         gitIcon,
         npmIcon,

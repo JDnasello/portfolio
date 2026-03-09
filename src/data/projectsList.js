@@ -1,17 +1,17 @@
-import mongodbIcon from '../img/mongodb.svg'
-import nodejsIcon from '../img/nodejs.svg'
-import expressIcon from '../img/express.svg'
-import reactIcon from '../img/react.svg'
-import reduxIcon from '../img/redux.svg'
-import artesMarciales from '../img/artes-marciales-interface.jpeg'
-import pokedex from '../img/pokedex-interface.jpeg'
-import socialFlow from '../img/social-flow-interface.jpeg'
+import mongodbIcon from "../img/mongodb.svg";
+import nodejsIcon from "../img/nodejs.svg";
+import expressIcon from "../img/express.svg";
+import reactIcon from "../img/react.svg";
+import reduxIcon from "../img/redux.svg";
+import artesMarciales from "../img/artes-marciales-interface.jpeg";
+import pokedex from "../img/pokedex-interface.jpeg";
+import socialFlow from "../img/social-flow-interface.jpeg";
 
-const mongodbColor = "#0483043a"
-const reactColor = "#00b0f43a"
-const reduxColor = '#240044a8'
-const nodeColor = "#00f40c3a"
-const expressColor = '#000'
+const mongodbColor = "#0483043a";
+const reactColor = "#00b0f43a";
+const reduxColor = "#240044a8";
+const nodeColor = "#00f40c3a";
+const expressColor = "#000";
 
 export const list = [
   {
@@ -20,7 +20,7 @@ export const list = [
     title: "SocialFlow",
     description:
       "Aplicación inspirada en Twitter, con algunos ajustes en su diseño. La idea es mostrar mis conocimientos en el MERN stack",
-    codeLink: "",
+    codeLink: "https://github.com/JDnasello/SocialFlow",
     projectLink: "",
     technologies: [
       {
